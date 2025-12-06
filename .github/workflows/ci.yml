@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branch:
+      - "**"
+    pull_request:
+      branch:
+        - main
+        - dev
+job:
+  ci:
+    run-on: self-host
+  
+        
